@@ -369,6 +369,14 @@ body.nav-open { overflow: hidden; }
   background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent 55%);
 }
 
+.tile-overlay--top {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65), transparent 55%);
+}
+
+.arrival-panel--shoe .tile-img {
+  object-position: 100% center;
+}
+
 .tile-caption {
   position: absolute; left: 22px; bottom: 18px;
 }
@@ -564,6 +572,12 @@ body.nav-open { overflow: hidden; }
 }
 
 .product-media:hover { transform: translateY(-4px); }
+
+.product-img {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;
+}
 
 .product-name {
   font-size: 13px;
